@@ -45,7 +45,9 @@ group :development do
   gem 'win32console', :platforms => [:mswin, :mingw], :require => false
 end
 
-
+group :production do
+  gem 'mysql2'
+end
 
 
 
